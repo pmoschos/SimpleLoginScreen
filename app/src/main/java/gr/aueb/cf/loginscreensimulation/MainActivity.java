@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private boolean isValidCredentials(String username, String password) {
-        return username.equals("admin") && password.equals("password");
+        return username.equals("admin@gmail.com") && password.equals("password");
     }
     private void displayWelcomeMessage(String username) {
         String message = "Welcome " + username;
